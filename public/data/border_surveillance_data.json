@@ -1,0 +1,3141 @@
+[
+  {
+    "event_id": "EVT0005",
+    "timestamp": "2025-09-20T21:23:50",
+    "latitude": 25.428924,
+    "longitude": 88.466322,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0006",
+    "timestamp": "2025-09-23T20:23:45",
+    "latitude": 26.070254,
+    "longitude": 89.677478,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0041",
+    "timestamp": "2025-09-23T21:44:47",
+    "latitude": 26.190252,
+    "longitude": 89.103761,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0044",
+    "timestamp": "2025-09-24T19:11:05",
+    "latitude": 25.662935,
+    "longitude": 88.536983,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0062",
+    "timestamp": "2025-09-10T22:56:53",
+    "latitude": 26.935592,
+    "longitude": 89.585925,
+    "event_type": "seismic_activity",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0067",
+    "timestamp": "2025-09-14T20:07:43",
+    "latitude": 25.276591,
+    "longitude": 88.360343,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0071",
+    "timestamp": "2025-09-07T16:27:12",
+    "latitude": 26.10231,
+    "longitude": 88.984638,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0072",
+    "timestamp": "2025-09-21T21:47:28",
+    "latitude": 25.635155,
+    "longitude": 88.508816,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0099",
+    "timestamp": "2025-10-01T15:05:30",
+    "latitude": 25.475543,
+    "longitude": 88.431214,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0100",
+    "timestamp": "2025-10-02T22:07:24",
+    "latitude": 25.129392,
+    "longitude": 89.229394,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0110",
+    "timestamp": "2025-09-19T01:28:46",
+    "latitude": 25.45296,
+    "longitude": 88.50521,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0112",
+    "timestamp": "2025-10-01T21:41:37",
+    "latitude": 26.764501,
+    "longitude": 89.650341,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0117",
+    "timestamp": "2025-09-22T02:05:39",
+    "latitude": 26.248582,
+    "longitude": 89.600302,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0127",
+    "timestamp": "2025-09-26T04:07:05",
+    "latitude": 26.943987,
+    "longitude": 88.531999,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0133",
+    "timestamp": "2025-09-28T03:57:05",
+    "latitude": 25.486665,
+    "longitude": 88.507868,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0136",
+    "timestamp": "2025-09-29T02:48:26",
+    "latitude": 25.330272,
+    "longitude": 88.510226,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0144",
+    "timestamp": "2025-09-10T02:41:57",
+    "latitude": 25.49396,
+    "longitude": 88.566387,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0150",
+    "timestamp": "2025-09-09T05:31:00",
+    "latitude": 26.128142,
+    "longitude": 89.14768,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0160",
+    "timestamp": "2025-09-09T20:36:43",
+    "latitude": 26.877109,
+    "longitude": 89.582399,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0161",
+    "timestamp": "2025-10-03T17:18:21",
+    "latitude": 25.456399,
+    "longitude": 88.389023,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0164",
+    "timestamp": "2025-09-15T19:47:37",
+    "latitude": 26.173997,
+    "longitude": 89.124663,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0169",
+    "timestamp": "2025-09-19T03:47:49",
+    "latitude": 26.2627,
+    "longitude": 89.030614,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0171",
+    "timestamp": "2025-09-22T04:41:24",
+    "latitude": 26.387269,
+    "longitude": 89.071449,
+    "event_type": "seismic_activity",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0172",
+    "timestamp": "2025-09-23T12:36:58",
+    "latitude": 26.709005,
+    "longitude": 89.694057,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0176",
+    "timestamp": "2025-09-22T14:35:38",
+    "latitude": 25.482614,
+    "longitude": 88.594017,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0179",
+    "timestamp": "2025-10-03T03:07:49",
+    "latitude": 25.356847,
+    "longitude": 89.533751,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0182",
+    "timestamp": "2025-09-17T03:42:52",
+    "latitude": 25.521136,
+    "longitude": 88.371444,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0187",
+    "timestamp": "2025-09-22T20:33:34",
+    "latitude": 26.170568,
+    "longitude": 88.964235,
+    "event_type": "seismic_activity",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0192",
+    "timestamp": "2025-09-30T05:24:08",
+    "latitude": 25.344857,
+    "longitude": 89.669483,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0210",
+    "timestamp": "2025-09-15T13:36:30",
+    "latitude": 26.252945,
+    "longitude": 89.14088,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0211",
+    "timestamp": "2025-09-21T10:32:39",
+    "latitude": 25.648371,
+    "longitude": 88.504703,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0212",
+    "timestamp": "2025-10-04T08:04:32",
+    "latitude": 26.109793,
+    "longitude": 89.200783,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0216",
+    "timestamp": "2025-09-23T23:12:41",
+    "latitude": 25.43294,
+    "longitude": 88.370197,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0219",
+    "timestamp": "2025-09-20T02:35:06",
+    "latitude": 26.668636,
+    "longitude": 89.727735,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0234",
+    "timestamp": "2025-09-10T10:07:30",
+    "latitude": 25.453995,
+    "longitude": 88.371332,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0236",
+    "timestamp": "2025-09-10T06:06:23",
+    "latitude": 25.885023,
+    "longitude": 88.971392,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0245",
+    "timestamp": "2025-09-11T16:30:01",
+    "latitude": 25.490173,
+    "longitude": 88.518442,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0264",
+    "timestamp": "2025-09-16T21:07:42",
+    "latitude": 25.584733,
+    "longitude": 88.700976,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0272",
+    "timestamp": "2025-09-16T14:11:47",
+    "latitude": 25.430065,
+    "longitude": 88.510598,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0280",
+    "timestamp": "2025-10-03T01:03:03",
+    "latitude": 25.4615,
+    "longitude": 88.429173,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0282",
+    "timestamp": "2025-09-12T03:24:14",
+    "latitude": 25.787629,
+    "longitude": 88.686881,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0283",
+    "timestamp": "2025-09-29T04:42:15",
+    "latitude": 25.856436,
+    "longitude": 88.806198,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0287",
+    "timestamp": "2025-09-07T03:06:34",
+    "latitude": 25.584469,
+    "longitude": 88.554541,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0290",
+    "timestamp": "2025-09-21T21:55:48",
+    "latitude": 26.170664,
+    "longitude": 89.263126,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0291",
+    "timestamp": "2025-09-29T23:32:23",
+    "latitude": 26.603446,
+    "longitude": 88.40044,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0292",
+    "timestamp": "2025-09-15T06:08:16",
+    "latitude": 26.804599,
+    "longitude": 89.77347,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0293",
+    "timestamp": "2025-09-13T20:06:10",
+    "latitude": 26.228115,
+    "longitude": 89.113259,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0294",
+    "timestamp": "2025-09-24T05:30:38",
+    "latitude": 25.591222,
+    "longitude": 88.292543,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0301",
+    "timestamp": "2025-09-16T16:02:14",
+    "latitude": 26.714551,
+    "longitude": 89.621314,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0307",
+    "timestamp": "2025-09-24T20:18:35",
+    "latitude": 26.752446,
+    "longitude": 89.70749,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0323",
+    "timestamp": "2025-09-22T01:08:56",
+    "latitude": 26.142192,
+    "longitude": 89.20319,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0324",
+    "timestamp": "2025-09-25T05:20:32",
+    "latitude": 26.699667,
+    "longitude": 89.636843,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0330",
+    "timestamp": "2025-09-24T06:03:20",
+    "latitude": 26.230488,
+    "longitude": 89.2711,
+    "event_type": "seismic_activity",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0332",
+    "timestamp": "2025-09-29T15:31:14",
+    "latitude": 25.438225,
+    "longitude": 88.516879,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0333",
+    "timestamp": "2025-09-18T21:09:10",
+    "latitude": 26.29102,
+    "longitude": 89.190455,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0341",
+    "timestamp": "2025-09-14T19:30:16",
+    "latitude": 26.803901,
+    "longitude": 89.596466,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0349",
+    "timestamp": "2025-09-08T02:07:48",
+    "latitude": 26.828558,
+    "longitude": 89.655836,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0364",
+    "timestamp": "2025-09-30T05:29:36",
+    "latitude": 25.746297,
+    "longitude": 88.710622,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0380",
+    "timestamp": "2025-09-09T19:12:55",
+    "latitude": 26.863958,
+    "longitude": 89.712584,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0386",
+    "timestamp": "2025-09-14T22:57:05",
+    "latitude": 26.862726,
+    "longitude": 89.700738,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0390",
+    "timestamp": "2025-09-24T02:08:54",
+    "latitude": 26.316862,
+    "longitude": 89.190999,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0412",
+    "timestamp": "2025-09-21T03:58:29",
+    "latitude": 26.718914,
+    "longitude": 88.866267,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0413",
+    "timestamp": "2025-09-26T03:06:50",
+    "latitude": 26.932876,
+    "longitude": 89.712701,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0420",
+    "timestamp": "2025-09-11T10:06:33",
+    "latitude": 26.260055,
+    "longitude": 88.993431,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0422",
+    "timestamp": "2025-09-27T23:25:11",
+    "latitude": 26.83469,
+    "longitude": 89.591443,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0433",
+    "timestamp": "2025-09-15T21:00:16",
+    "latitude": 25.37552,
+    "longitude": 88.607131,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0438",
+    "timestamp": "2025-09-29T12:05:03",
+    "latitude": 26.187462,
+    "longitude": 89.150198,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0442",
+    "timestamp": "2025-09-17T23:13:39",
+    "latitude": 25.383473,
+    "longitude": 88.488906,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0443",
+    "timestamp": "2025-09-06T06:50:56",
+    "latitude": 25.66122,
+    "longitude": 88.366703,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0451",
+    "timestamp": "2025-09-12T03:07:08",
+    "latitude": 26.097942,
+    "longitude": 89.045873,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0452",
+    "timestamp": "2025-09-08T21:13:57",
+    "latitude": 25.429656,
+    "longitude": 89.379472,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0453",
+    "timestamp": "2025-09-21T05:32:03",
+    "latitude": 26.371043,
+    "longitude": 89.142186,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0455",
+    "timestamp": "2025-09-07T00:36:33",
+    "latitude": 25.503263,
+    "longitude": 88.506647,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0473",
+    "timestamp": "2025-09-14T02:01:54",
+    "latitude": 25.499675,
+    "longitude": 88.660703,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0481",
+    "timestamp": "2025-09-10T05:57:06",
+    "latitude": 26.113146,
+    "longitude": 89.258862,
+    "event_type": "thermal_signature",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0483",
+    "timestamp": "2025-09-20T22:34:04",
+    "latitude": 26.117114,
+    "longitude": 89.074048,
+    "event_type": "seismic_activity",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0487",
+    "timestamp": "2025-09-29T09:08:10",
+    "latitude": 26.817233,
+    "longitude": 89.695069,
+    "event_type": "drone_detection",
+    "confidence": 1,
+    "anomaly_score": 1,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0087",
+    "timestamp": "2025-09-20T21:09:59",
+    "latitude": 25.615237,
+    "longitude": 88.393829,
+    "event_type": "drone_detection",
+    "confidence": 0.996,
+    "anomaly_score": 0.996,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (1.00)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0123",
+    "timestamp": "2025-09-10T04:04:00",
+    "latitude": 25.56336,
+    "longitude": 88.394175,
+    "event_type": "thermal_signature",
+    "confidence": 0.994,
+    "anomaly_score": 0.994,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0122",
+    "timestamp": "2025-09-14T18:08:08",
+    "latitude": 25.121625,
+    "longitude": 88.963129,
+    "event_type": "drone_detection",
+    "confidence": 0.993,
+    "anomaly_score": 0.993,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0130",
+    "timestamp": "2025-09-30T07:43:41",
+    "latitude": 25.568762,
+    "longitude": 88.51805,
+    "event_type": "thermal_signature",
+    "confidence": 0.993,
+    "anomaly_score": 0.993,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0277",
+    "timestamp": "2025-09-15T06:45:21",
+    "latitude": 26.217623,
+    "longitude": 88.999578,
+    "event_type": "seismic_activity",
+    "confidence": 0.99,
+    "anomaly_score": 0.99,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0385",
+    "timestamp": "2025-09-28T03:12:38",
+    "latitude": 26.247757,
+    "longitude": 89.126698,
+    "event_type": "thermal_signature",
+    "confidence": 0.99,
+    "anomaly_score": 0.99,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0338",
+    "timestamp": "2025-09-14T21:27:07",
+    "latitude": 25.277622,
+    "longitude": 88.121457,
+    "event_type": "thermal_signature",
+    "confidence": 0.989,
+    "anomaly_score": 0.989,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0248",
+    "timestamp": "2025-09-09T00:54:01",
+    "latitude": 26.232822,
+    "longitude": 89.117001,
+    "event_type": "thermal_signature",
+    "confidence": 0.986,
+    "anomaly_score": 0.986,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.99)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0174",
+    "timestamp": "2025-09-13T03:00:40",
+    "latitude": 25.031656,
+    "longitude": 89.581967,
+    "event_type": "thermal_signature",
+    "confidence": 0.985,
+    "anomaly_score": 0.985,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.98)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0202",
+    "timestamp": "2025-09-07T22:49:33",
+    "latitude": 25.419266,
+    "longitude": 88.658653,
+    "event_type": "drone_detection",
+    "confidence": 0.982,
+    "anomaly_score": 0.982,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.98)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0430",
+    "timestamp": "2025-09-16T05:40:50",
+    "latitude": 26.195018,
+    "longitude": 89.016752,
+    "event_type": "seismic_activity",
+    "confidence": 0.982,
+    "anomaly_score": 0.982,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.98)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0493",
+    "timestamp": "2025-09-16T20:56:20",
+    "latitude": 25.076767,
+    "longitude": 88.805894,
+    "event_type": "drone_detection",
+    "confidence": 0.982,
+    "anomaly_score": 0.982,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.98)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0134",
+    "timestamp": "2025-10-03T00:00:56",
+    "latitude": 25.093433,
+    "longitude": 89.811238,
+    "event_type": "seismic_activity",
+    "confidence": 0.977,
+    "anomaly_score": 0.977,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.98)",
+      "Activity during night hours",
+      "Unusual geographic pattern"
+    ]
+  },
+  {
+    "event_id": "EVT0408",
+    "timestamp": "2025-09-06T00:32:46",
+    "latitude": 25.496878,
+    "longitude": 89.571099,
+    "event_type": "drone_detection",
+    "confidence": 0.974,
+    "anomaly_score": 0.974,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0082",
+    "timestamp": "2025-10-02T21:18:15",
+    "latitude": 25.881735,
+    "longitude": 88.767777,
+    "event_type": "thermal_signature",
+    "confidence": 0.971,
+    "anomaly_score": 0.971,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0223",
+    "timestamp": "2025-09-17T03:35:55",
+    "latitude": 25.734597,
+    "longitude": 88.725015,
+    "event_type": "thermal_signature",
+    "confidence": 0.971,
+    "anomaly_score": 0.971,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0425",
+    "timestamp": "2025-09-30T06:42:52",
+    "latitude": 26.73132,
+    "longitude": 89.767031,
+    "event_type": "seismic_activity",
+    "confidence": 0.97,
+    "anomaly_score": 0.97,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0497",
+    "timestamp": "2025-09-24T18:04:14",
+    "latitude": 25.519917,
+    "longitude": 88.577738,
+    "event_type": "drone_detection",
+    "confidence": 0.97,
+    "anomaly_score": 0.97,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0003",
+    "timestamp": "2025-09-20T21:48:36",
+    "latitude": 26.944269,
+    "longitude": 89.825674,
+    "event_type": "drone_detection",
+    "confidence": 0.969,
+    "anomaly_score": 0.969,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0020",
+    "timestamp": "2025-09-20T02:21:53",
+    "latitude": 25.486257,
+    "longitude": 89.035887,
+    "event_type": "drone_detection",
+    "confidence": 0.967,
+    "anomaly_score": 0.967,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0053",
+    "timestamp": "2025-09-10T05:24:00",
+    "latitude": 26.2841,
+    "longitude": 89.502489,
+    "event_type": "drone_detection",
+    "confidence": 0.967,
+    "anomaly_score": 0.967,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.97)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0392",
+    "timestamp": "2025-09-22T23:20:12",
+    "latitude": 26.005868,
+    "longitude": 89.645332,
+    "event_type": "thermal_signature",
+    "confidence": 0.965,
+    "anomaly_score": 0.965,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0088",
+    "timestamp": "2025-09-07T04:03:00",
+    "latitude": 25.428005,
+    "longitude": 88.572431,
+    "event_type": "seismic_activity",
+    "confidence": 0.963,
+    "anomaly_score": 0.963,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0011",
+    "timestamp": "2025-09-27T06:47:09",
+    "latitude": 26.606225,
+    "longitude": 88.030366,
+    "event_type": "drone_detection",
+    "confidence": 0.962,
+    "anomaly_score": 0.962,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0383",
+    "timestamp": "2025-10-02T22:41:11",
+    "latitude": 26.068299,
+    "longitude": 88.728558,
+    "event_type": "thermal_signature",
+    "confidence": 0.962,
+    "anomaly_score": 0.962,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0490",
+    "timestamp": "2025-10-02T00:17:12",
+    "latitude": 26.279833,
+    "longitude": 89.094278,
+    "event_type": "seismic_activity",
+    "confidence": 0.961,
+    "anomaly_score": 0.961,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0075",
+    "timestamp": "2025-09-19T00:00:08",
+    "latitude": 26.765874,
+    "longitude": 88.578539,
+    "event_type": "drone_detection",
+    "confidence": 0.959,
+    "anomaly_score": 0.959,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0032",
+    "timestamp": "2025-09-21T01:57:33",
+    "latitude": 25.00122,
+    "longitude": 88.199003,
+    "event_type": "drone_detection",
+    "confidence": 0.957,
+    "anomaly_score": 0.957,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0213",
+    "timestamp": "2025-09-12T01:25:41",
+    "latitude": 25.345379,
+    "longitude": 88.480792,
+    "event_type": "drone_detection",
+    "confidence": 0.956,
+    "anomaly_score": 0.956,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0302",
+    "timestamp": "2025-09-15T20:54:56",
+    "latitude": 26.816383,
+    "longitude": 89.361464,
+    "event_type": "drone_detection",
+    "confidence": 0.956,
+    "anomaly_score": 0.956,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0424",
+    "timestamp": "2025-09-14T22:50:10",
+    "latitude": 25.384143,
+    "longitude": 89.336107,
+    "event_type": "thermal_signature",
+    "confidence": 0.956,
+    "anomaly_score": 0.956,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.96)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0331",
+    "timestamp": "2025-09-25T06:20:11",
+    "latitude": 25.792666,
+    "longitude": 89.131044,
+    "event_type": "thermal_signature",
+    "confidence": 0.953,
+    "anomaly_score": 0.953,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.95)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0279",
+    "timestamp": "2025-09-28T01:45:44",
+    "latitude": 25.974662,
+    "longitude": 89.061503,
+    "event_type": "camera_alert",
+    "confidence": 0.95,
+    "anomaly_score": 0.95,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.95)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0436",
+    "timestamp": "2025-10-03T05:15:00",
+    "latitude": 26.256671,
+    "longitude": 89.021639,
+    "event_type": "thermal_signature",
+    "confidence": 0.946,
+    "anomaly_score": 0.946,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.95)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0437",
+    "timestamp": "2025-09-21T22:21:05",
+    "latitude": 26.466688,
+    "longitude": 89.92015,
+    "event_type": "seismic_activity",
+    "confidence": 0.946,
+    "anomaly_score": 0.946,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.95)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0031",
+    "timestamp": "2025-09-18T06:51:52",
+    "latitude": 26.230777,
+    "longitude": 88.904752,
+    "event_type": "camera_alert",
+    "confidence": 0.945,
+    "anomaly_score": 0.945,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0125",
+    "timestamp": "2025-09-18T04:57:36",
+    "latitude": 26.763307,
+    "longitude": 89.775284,
+    "event_type": "seismic_activity",
+    "confidence": 0.944,
+    "anomaly_score": 0.944,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0351",
+    "timestamp": "2025-09-16T03:25:05",
+    "latitude": 26.18876,
+    "longitude": 89.010595,
+    "event_type": "seismic_activity",
+    "confidence": 0.943,
+    "anomaly_score": 0.943,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0480",
+    "timestamp": "2025-09-24T04:37:09",
+    "latitude": 26.643928,
+    "longitude": 88.509336,
+    "event_type": "drone_detection",
+    "confidence": 0.943,
+    "anomaly_score": 0.943,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0373",
+    "timestamp": "2025-09-12T02:13:08",
+    "latitude": 26.207645,
+    "longitude": 88.919498,
+    "event_type": "seismic_activity",
+    "confidence": 0.941,
+    "anomaly_score": 0.941,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0275",
+    "timestamp": "2025-09-07T07:43:58",
+    "latitude": 26.065968,
+    "longitude": 89.017161,
+    "event_type": "thermal_signature",
+    "confidence": 0.94,
+    "anomaly_score": 0.94,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0079",
+    "timestamp": "2025-09-06T01:47:12",
+    "latitude": 25.439859,
+    "longitude": 88.59555,
+    "event_type": "camera_alert",
+    "confidence": 0.939,
+    "anomaly_score": 0.939,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0113",
+    "timestamp": "2025-09-15T17:39:11",
+    "latitude": 25.466013,
+    "longitude": 88.529991,
+    "event_type": "thermal_signature",
+    "confidence": 0.935,
+    "anomaly_score": 0.935,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0177",
+    "timestamp": "2025-10-01T02:52:33",
+    "latitude": 25.433897,
+    "longitude": 88.387116,
+    "event_type": "camera_alert",
+    "confidence": 0.935,
+    "anomaly_score": 0.935,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.94)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0148",
+    "timestamp": "2025-09-10T22:57:57",
+    "latitude": 25.941709,
+    "longitude": 88.943843,
+    "event_type": "drone_detection",
+    "confidence": 0.933,
+    "anomaly_score": 0.933,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.93)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0042",
+    "timestamp": "2025-09-22T11:01:45",
+    "latitude": 26.268122,
+    "longitude": 89.215429,
+    "event_type": "seismic_activity",
+    "confidence": 0.93,
+    "anomaly_score": 0.93,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.93)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0306",
+    "timestamp": "2025-09-08T20:03:45",
+    "latitude": 25.983934,
+    "longitude": 89.685663,
+    "event_type": "drone_detection",
+    "confidence": 0.93,
+    "anomaly_score": 0.93,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.93)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0491",
+    "timestamp": "2025-09-29T12:01:58",
+    "latitude": 26.895142,
+    "longitude": 89.718384,
+    "event_type": "thermal_signature",
+    "confidence": 0.93,
+    "anomaly_score": 0.93,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.93)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0205",
+    "timestamp": "2025-09-13T16:20:41",
+    "latitude": 25.609744,
+    "longitude": 89.783277,
+    "event_type": "thermal_signature",
+    "confidence": 0.92,
+    "anomaly_score": 0.92,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Unusual weekend activity",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0048",
+    "timestamp": "2025-09-24T06:20:50",
+    "latitude": 26.119149,
+    "longitude": 89.166253,
+    "event_type": "seismic_activity",
+    "confidence": 0.919,
+    "anomaly_score": 0.919,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0131",
+    "timestamp": "2025-09-18T06:29:01",
+    "latitude": 25.380143,
+    "longitude": 89.65708,
+    "event_type": "drone_detection",
+    "confidence": 0.919,
+    "anomaly_score": 0.919,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0168",
+    "timestamp": "2025-09-14T12:41:10",
+    "latitude": 25.628223,
+    "longitude": 88.411213,
+    "event_type": "drone_detection",
+    "confidence": 0.919,
+    "anomaly_score": 0.919,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0447",
+    "timestamp": "2025-09-05T22:24:47",
+    "latitude": 26.925204,
+    "longitude": 89.792363,
+    "event_type": "thermal_signature",
+    "confidence": 0.918,
+    "anomaly_score": 0.918,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0010",
+    "timestamp": "2025-09-20T22:04:16",
+    "latitude": 26.794864,
+    "longitude": 89.747319,
+    "event_type": "seismic_activity",
+    "confidence": 0.915,
+    "anomaly_score": 0.915,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0314",
+    "timestamp": "2025-09-12T06:17:46",
+    "latitude": 25.970596,
+    "longitude": 88.769432,
+    "event_type": "seismic_activity",
+    "confidence": 0.915,
+    "anomaly_score": 0.915,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.92)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0381",
+    "timestamp": "2025-09-09T01:27:48",
+    "latitude": 25.279861,
+    "longitude": 88.419953,
+    "event_type": "thermal_signature",
+    "confidence": 0.912,
+    "anomaly_score": 0.912,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.91)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0061",
+    "timestamp": "2025-09-09T13:05:05",
+    "latitude": 26.871891,
+    "longitude": 89.711214,
+    "event_type": "thermal_signature",
+    "confidence": 0.909,
+    "anomaly_score": 0.909,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.91)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0305",
+    "timestamp": "2025-09-24T21:20:51",
+    "latitude": 26.240733,
+    "longitude": 89.244853,
+    "event_type": "thermal_signature",
+    "confidence": 0.908,
+    "anomaly_score": 0.908,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.91)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0357",
+    "timestamp": "2025-09-24T21:33:43",
+    "latitude": 26.166405,
+    "longitude": 89.190136,
+    "event_type": "camera_alert",
+    "confidence": 0.907,
+    "anomaly_score": 0.907,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.91)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0035",
+    "timestamp": "2025-09-14T01:37:04",
+    "latitude": 26.782145,
+    "longitude": 89.720509,
+    "event_type": "seismic_activity",
+    "confidence": 0.904,
+    "anomaly_score": 0.904,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.90)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0043",
+    "timestamp": "2025-09-21T12:08:08",
+    "latitude": 25.555585,
+    "longitude": 88.423888,
+    "event_type": "thermal_signature",
+    "confidence": 0.9,
+    "anomaly_score": 0.9,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.90)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0225",
+    "timestamp": "2025-10-02T08:31:43",
+    "latitude": 25.497982,
+    "longitude": 88.852593,
+    "event_type": "drone_detection",
+    "confidence": 0.899,
+    "anomaly_score": 0.899,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.90)"
+    ]
+  },
+  {
+    "event_id": "EVT0468",
+    "timestamp": "2025-10-04T13:16:12",
+    "latitude": 26.168304,
+    "longitude": 89.079501,
+    "event_type": "drone_detection",
+    "confidence": 0.898,
+    "anomaly_score": 0.898,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.90)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0495",
+    "timestamp": "2025-10-03T04:58:07",
+    "latitude": 26.501751,
+    "longitude": 89.981919,
+    "event_type": "seismic_activity",
+    "confidence": 0.894,
+    "anomaly_score": 0.894,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0137",
+    "timestamp": "2025-09-30T00:45:00",
+    "latitude": 26.198193,
+    "longitude": 88.615045,
+    "event_type": "drone_detection",
+    "confidence": 0.892,
+    "anomaly_score": 0.892,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0356",
+    "timestamp": "2025-09-30T16:39:02",
+    "latitude": 26.80822,
+    "longitude": 89.636113,
+    "event_type": "thermal_signature",
+    "confidence": 0.89,
+    "anomaly_score": 0.89,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0105",
+    "timestamp": "2025-09-21T20:08:28",
+    "latitude": 26.132646,
+    "longitude": 89.14365,
+    "event_type": "seismic_activity",
+    "confidence": 0.889,
+    "anomaly_score": 0.889,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0060",
+    "timestamp": "2025-09-30T06:52:10",
+    "latitude": 25.381736,
+    "longitude": 88.461213,
+    "event_type": "camera_alert",
+    "confidence": 0.888,
+    "anomaly_score": 0.888,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0141",
+    "timestamp": "2025-09-24T19:14:36",
+    "latitude": 26.625122,
+    "longitude": 89.846034,
+    "event_type": "thermal_signature",
+    "confidence": 0.886,
+    "anomaly_score": 0.886,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.89)",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0258",
+    "timestamp": "2025-09-06T07:48:44",
+    "latitude": 26.960418,
+    "longitude": 89.991396,
+    "event_type": "drone_detection",
+    "confidence": 0.884,
+    "anomaly_score": 0.884,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.88)",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0156",
+    "timestamp": "2025-09-09T16:26:31",
+    "latitude": 25.764684,
+    "longitude": 88.428076,
+    "event_type": "drone_detection",
+    "confidence": 0.877,
+    "anomaly_score": 0.877,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.88)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0454",
+    "timestamp": "2025-09-27T03:32:36",
+    "latitude": 26.454988,
+    "longitude": 88.941286,
+    "event_type": "thermal_signature",
+    "confidence": 0.877,
+    "anomaly_score": 0.877,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.88)",
+      "Activity during night hours",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0073",
+    "timestamp": "2025-09-30T03:21:27",
+    "latitude": 25.310753,
+    "longitude": 89.110079,
+    "event_type": "thermal_signature",
+    "confidence": 0.874,
+    "anomaly_score": 0.874,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0135",
+    "timestamp": "2025-09-14T13:36:35",
+    "latitude": 25.551874,
+    "longitude": 88.668394,
+    "event_type": "drone_detection",
+    "confidence": 0.874,
+    "anomaly_score": 0.874,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0157",
+    "timestamp": "2025-09-13T16:27:31",
+    "latitude": 25.417849,
+    "longitude": 88.540615,
+    "event_type": "seismic_activity",
+    "confidence": 0.872,
+    "anomaly_score": 0.872,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0181",
+    "timestamp": "2025-09-26T14:17:50",
+    "latitude": 26.280335,
+    "longitude": 89.055171,
+    "event_type": "thermal_signature",
+    "confidence": 0.872,
+    "anomaly_score": 0.872,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0313",
+    "timestamp": "2025-09-26T00:21:37",
+    "latitude": 26.506001,
+    "longitude": 88.583385,
+    "event_type": "thermal_signature",
+    "confidence": 0.872,
+    "anomaly_score": 0.872,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0267",
+    "timestamp": "2025-09-20T06:29:05",
+    "latitude": 25.480126,
+    "longitude": 88.54254,
+    "event_type": "seismic_activity",
+    "confidence": 0.871,
+    "anomaly_score": 0.871,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0024",
+    "timestamp": "2025-09-05T15:19:55",
+    "latitude": 26.771118,
+    "longitude": 89.734311,
+    "event_type": "thermal_signature",
+    "confidence": 0.869,
+    "anomaly_score": 0.869,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0207",
+    "timestamp": "2025-09-15T04:17:52",
+    "latitude": 25.401407,
+    "longitude": 88.543937,
+    "event_type": "seismic_activity",
+    "confidence": 0.868,
+    "anomaly_score": 0.868,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0226",
+    "timestamp": "2025-09-30T06:21:21",
+    "latitude": 26.189361,
+    "longitude": 89.075637,
+    "event_type": "camera_alert",
+    "confidence": 0.867,
+    "anomaly_score": 0.867,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0184",
+    "timestamp": "2025-09-16T02:47:37",
+    "latitude": 26.444436,
+    "longitude": 89.825906,
+    "event_type": "drone_detection",
+    "confidence": 0.866,
+    "anomaly_score": 0.866,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.87)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0118",
+    "timestamp": "2025-09-20T11:56:01",
+    "latitude": 25.541509,
+    "longitude": 88.493958,
+    "event_type": "drone_detection",
+    "confidence": 0.864,
+    "anomaly_score": 0.864,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0296",
+    "timestamp": "2025-09-07T11:21:01",
+    "latitude": 25.288841,
+    "longitude": 88.041977,
+    "event_type": "drone_detection",
+    "confidence": 0.864,
+    "anomaly_score": 0.864,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0375",
+    "timestamp": "2025-09-12T09:10:36",
+    "latitude": 26.000439,
+    "longitude": 88.158485,
+    "event_type": "drone_detection",
+    "confidence": 0.859,
+    "anomaly_score": 0.859,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)"
+    ]
+  },
+  {
+    "event_id": "EVT0348",
+    "timestamp": "2025-09-10T05:09:38",
+    "latitude": 25.624283,
+    "longitude": 88.382517,
+    "event_type": "camera_alert",
+    "confidence": 0.857,
+    "anomaly_score": 0.857,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0441",
+    "timestamp": "2025-09-20T03:51:23",
+    "latitude": 26.289411,
+    "longitude": 89.220728,
+    "event_type": "motion_sensor",
+    "confidence": 0.857,
+    "anomaly_score": 0.857,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0206",
+    "timestamp": "2025-10-03T10:41:09",
+    "latitude": 26.108187,
+    "longitude": 89.088056,
+    "event_type": "drone_detection",
+    "confidence": 0.856,
+    "anomaly_score": 0.856,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.86)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0345",
+    "timestamp": "2025-09-07T16:01:56",
+    "latitude": 26.47957,
+    "longitude": 89.689558,
+    "event_type": "drone_detection",
+    "confidence": 0.855,
+    "anomaly_score": 0.855,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0378",
+    "timestamp": "2025-09-10T05:22:09",
+    "latitude": 25.063415,
+    "longitude": 88.738628,
+    "event_type": "thermal_signature",
+    "confidence": 0.855,
+    "anomaly_score": 0.855,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Activity during night hours",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0358",
+    "timestamp": "2025-09-30T04:00:10",
+    "latitude": 26.23732,
+    "longitude": 89.124752,
+    "event_type": "camera_alert",
+    "confidence": 0.852,
+    "anomaly_score": 0.852,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0178",
+    "timestamp": "2025-09-21T11:33:03",
+    "latitude": 25.309562,
+    "longitude": 88.430712,
+    "event_type": "camera_alert",
+    "confidence": 0.851,
+    "anomaly_score": 0.851,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0235",
+    "timestamp": "2025-09-23T21:12:29",
+    "latitude": 26.170731,
+    "longitude": 89.044713,
+    "event_type": "seismic_activity",
+    "confidence": 0.851,
+    "anomaly_score": 0.851,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0399",
+    "timestamp": "2025-09-29T23:37:07",
+    "latitude": 25.187626,
+    "longitude": 88.538778,
+    "event_type": "seismic_activity",
+    "confidence": 0.851,
+    "anomaly_score": 0.851,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.85)",
+      "Activity during night hours"
+    ]
+  },
+  {
+    "event_id": "EVT0196",
+    "timestamp": "2025-10-03T14:56:07",
+    "latitude": 26.894858,
+    "longitude": 89.675937,
+    "event_type": "camera_alert",
+    "confidence": 0.839,
+    "anomaly_score": 0.839,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.84)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0026",
+    "timestamp": "2025-10-02T05:30:41",
+    "latitude": 26.69159,
+    "longitude": 89.716391,
+    "event_type": "seismic_activity",
+    "confidence": 0.833,
+    "anomaly_score": 0.833,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.83)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0276",
+    "timestamp": "2025-09-18T22:27:39",
+    "latitude": 25.613249,
+    "longitude": 88.519349,
+    "event_type": "thermal_signature",
+    "confidence": 0.828,
+    "anomaly_score": 0.828,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.83)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0320",
+    "timestamp": "2025-09-26T07:57:51",
+    "latitude": 26.815789,
+    "longitude": 89.755165,
+    "event_type": "camera_alert",
+    "confidence": 0.824,
+    "anomaly_score": 0.824,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.82)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0369",
+    "timestamp": "2025-09-12T00:28:29",
+    "latitude": 26.895476,
+    "longitude": 89.758994,
+    "event_type": "camera_alert",
+    "confidence": 0.819,
+    "anomaly_score": 0.819,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.82)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0246",
+    "timestamp": "2025-09-18T01:19:48",
+    "latitude": 25.555559,
+    "longitude": 88.454776,
+    "event_type": "seismic_activity",
+    "confidence": 0.818,
+    "anomaly_score": 0.818,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.82)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0055",
+    "timestamp": "2025-09-08T19:36:50",
+    "latitude": 26.747661,
+    "longitude": 89.576954,
+    "event_type": "motion_sensor",
+    "confidence": 0.811,
+    "anomaly_score": 0.811,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.81)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0365",
+    "timestamp": "2025-10-03T01:05:27",
+    "latitude": 26.721905,
+    "longitude": 89.639049,
+    "event_type": "seismic_activity",
+    "confidence": 0.803,
+    "anomaly_score": 0.803,
+    "priority": "HIGH",
+    "reasons": [
+      "High sensor confidence (0.80)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0034",
+    "timestamp": "2025-09-30T06:28:47",
+    "latitude": 26.938809,
+    "longitude": 89.720777,
+    "event_type": "camera_alert",
+    "confidence": 0.795,
+    "anomaly_score": 0.795,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.80)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0391",
+    "timestamp": "2025-09-23T00:07:46",
+    "latitude": 25.408995,
+    "longitude": 88.463765,
+    "event_type": "camera_alert",
+    "confidence": 0.793,
+    "anomaly_score": 0.793,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.79)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0260",
+    "timestamp": "2025-09-13T05:26:19",
+    "latitude": 26.18522,
+    "longitude": 89.105348,
+    "event_type": "camera_alert",
+    "confidence": 0.792,
+    "anomaly_score": 0.792,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.79)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0094",
+    "timestamp": "2025-09-23T09:01:06",
+    "latitude": 26.349058,
+    "longitude": 89.207695,
+    "event_type": "thermal_signature",
+    "confidence": 0.789,
+    "anomaly_score": 0.789,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.79)",
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0096",
+    "timestamp": "2025-09-12T20:08:26",
+    "latitude": 26.850381,
+    "longitude": 89.638154,
+    "event_type": "camera_alert",
+    "confidence": 0.775,
+    "anomaly_score": 0.775,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.78)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0063",
+    "timestamp": "2025-09-12T05:34:07",
+    "latitude": 26.182834,
+    "longitude": 89.09408,
+    "event_type": "camera_alert",
+    "confidence": 0.769,
+    "anomaly_score": 0.769,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.77)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0253",
+    "timestamp": "2025-09-06T06:42:20",
+    "latitude": 25.376596,
+    "longitude": 88.625533,
+    "event_type": "camera_alert",
+    "confidence": 0.767,
+    "anomaly_score": 0.767,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.77)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0274",
+    "timestamp": "2025-09-26T16:40:31",
+    "latitude": 26.768126,
+    "longitude": 89.583024,
+    "event_type": "camera_alert",
+    "confidence": 0.766,
+    "anomaly_score": 0.766,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.77)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0421",
+    "timestamp": "2025-09-25T07:00:53",
+    "latitude": 25.605588,
+    "longitude": 88.469371,
+    "event_type": "camera_alert",
+    "confidence": 0.76,
+    "anomaly_score": 0.76,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.76)",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0163",
+    "timestamp": "2025-09-19T06:37:34",
+    "latitude": 25.490301,
+    "longitude": 88.41909,
+    "event_type": "motion_sensor",
+    "confidence": 0.759,
+    "anomaly_score": 0.759,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.76)",
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0384",
+    "timestamp": "2025-09-07T14:17:04",
+    "latitude": 26.883782,
+    "longitude": 89.689908,
+    "event_type": "drone_detection",
+    "confidence": 0.753,
+    "anomaly_score": 0.753,
+    "priority": "MEDIUM",
+    "reasons": [
+      "High sensor confidence (0.75)",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0244",
+    "timestamp": "2025-09-23T02:13:04",
+    "latitude": 26.890281,
+    "longitude": 89.642867,
+    "event_type": "camera_alert",
+    "confidence": 0.746,
+    "anomaly_score": 0.746,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0326",
+    "timestamp": "2025-09-14T04:23:12",
+    "latitude": 25.613408,
+    "longitude": 88.437114,
+    "event_type": "camera_alert",
+    "confidence": 0.745,
+    "anomaly_score": 0.745,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0434",
+    "timestamp": "2025-09-24T19:41:46",
+    "latitude": 25.607957,
+    "longitude": 88.589818,
+    "event_type": "thermal_signature",
+    "confidence": 0.73,
+    "anomaly_score": 0.73,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Located in known high-risk smuggling route",
+      "High-priority threat type detected"
+    ]
+  },
+  {
+    "event_id": "EVT0153",
+    "timestamp": "2025-09-23T01:07:03",
+    "latitude": 26.887086,
+    "longitude": 89.663067,
+    "event_type": "camera_alert",
+    "confidence": 0.726,
+    "anomaly_score": 0.726,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0158",
+    "timestamp": "2025-09-19T17:01:00",
+    "latitude": 25.491278,
+    "longitude": 88.556178,
+    "event_type": "camera_alert",
+    "confidence": 0.721,
+    "anomaly_score": 0.721,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0241",
+    "timestamp": "2025-09-11T11:13:30",
+    "latitude": 25.48232,
+    "longitude": 88.561375,
+    "event_type": "seismic_activity",
+    "confidence": 0.71,
+    "anomaly_score": 0.71,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0410",
+    "timestamp": "2025-09-21T15:20:31",
+    "latitude": 26.774335,
+    "longitude": 89.697826,
+    "event_type": "camera_alert",
+    "confidence": 0.703,
+    "anomaly_score": 0.703,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0500",
+    "timestamp": "2025-09-19T14:47:48",
+    "latitude": 26.787631,
+    "longitude": 89.706565,
+    "event_type": "seismic_activity",
+    "confidence": 0.702,
+    "anomaly_score": 0.702,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0465",
+    "timestamp": "2025-09-24T05:35:54",
+    "latitude": 26.782244,
+    "longitude": 89.682247,
+    "event_type": "motion_sensor",
+    "confidence": 0.7,
+    "anomaly_score": 0.7,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0115",
+    "timestamp": "2025-09-04T06:03:30",
+    "latitude": 25.539927,
+    "longitude": 88.55857,
+    "event_type": "camera_alert",
+    "confidence": 0.686,
+    "anomaly_score": 0.686,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0460",
+    "timestamp": "2025-09-11T04:15:40",
+    "latitude": 26.800595,
+    "longitude": 89.805384,
+    "event_type": "motion_sensor",
+    "confidence": 0.685,
+    "anomaly_score": 0.685,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0340",
+    "timestamp": "2025-09-29T01:31:11",
+    "latitude": 25.357629,
+    "longitude": 88.143656,
+    "event_type": "motion_sensor",
+    "confidence": 0.682,
+    "anomaly_score": 0.682,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0050",
+    "timestamp": "2025-09-05T23:24:54",
+    "latitude": 25.280991,
+    "longitude": 88.528142,
+    "event_type": "motion_sensor",
+    "confidence": 0.68,
+    "anomaly_score": 0.68,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0339",
+    "timestamp": "2025-09-19T02:19:07",
+    "latitude": 26.173446,
+    "longitude": 89.159373,
+    "event_type": "camera_alert",
+    "confidence": 0.666,
+    "anomaly_score": 0.666,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0370",
+    "timestamp": "2025-09-15T21:19:06",
+    "latitude": 26.81474,
+    "longitude": 89.817589,
+    "event_type": "camera_alert",
+    "confidence": 0.639,
+    "anomaly_score": 0.639,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0478",
+    "timestamp": "2025-09-29T22:00:45",
+    "latitude": 26.803477,
+    "longitude": 89.693929,
+    "event_type": "motion_sensor",
+    "confidence": 0.633,
+    "anomaly_score": 0.633,
+    "priority": "MEDIUM",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0057",
+    "timestamp": "2025-09-18T21:00:59",
+    "latitude": 26.876961,
+    "longitude": 89.681988,
+    "event_type": "camera_alert",
+    "confidence": 0.6,
+    "anomaly_score": 0.6,
+    "priority": "LOW",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0208",
+    "timestamp": "2025-09-12T11:57:50",
+    "latitude": 26.883881,
+    "longitude": 89.761753,
+    "event_type": "camera_alert",
+    "confidence": 0.591,
+    "anomaly_score": 0.591,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0142",
+    "timestamp": "2025-09-17T17:32:45",
+    "latitude": 26.105007,
+    "longitude": 89.247741,
+    "event_type": "motion_sensor",
+    "confidence": 0.59,
+    "anomaly_score": 0.59,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0456",
+    "timestamp": "2025-09-20T05:39:22",
+    "latitude": 26.71937,
+    "longitude": 89.656566,
+    "event_type": "motion_sensor",
+    "confidence": 0.537,
+    "anomaly_score": 0.537,
+    "priority": "LOW",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0114",
+    "timestamp": "2025-09-20T13:54:17",
+    "latitude": 26.809565,
+    "longitude": 89.631194,
+    "event_type": "camera_alert",
+    "confidence": 0.524,
+    "anomaly_score": 0.524,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  },
+  {
+    "event_id": "EVT0036",
+    "timestamp": "2025-10-01T06:20:56",
+    "latitude": 25.483803,
+    "longitude": 88.602479,
+    "event_type": "motion_sensor",
+    "confidence": 0.513,
+    "anomaly_score": 0.513,
+    "priority": "LOW",
+    "reasons": [
+      "Activity during night hours",
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0394",
+    "timestamp": "2025-09-26T13:45:53",
+    "latitude": 26.795935,
+    "longitude": 89.60163,
+    "event_type": "motion_sensor",
+    "confidence": 0.495,
+    "anomaly_score": 0.495,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0007",
+    "timestamp": "2025-09-30T11:03:46",
+    "latitude": 26.212227,
+    "longitude": 89.055609,
+    "event_type": "motion_sensor",
+    "confidence": 0.493,
+    "anomaly_score": 0.493,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route"
+    ]
+  },
+  {
+    "event_id": "EVT0098",
+    "timestamp": "2025-09-21T12:32:36",
+    "latitude": 25.487562,
+    "longitude": 88.567927,
+    "event_type": "motion_sensor",
+    "confidence": 0.473,
+    "anomaly_score": 0.473,
+    "priority": "LOW",
+    "reasons": [
+      "Located in known high-risk smuggling route",
+      "Unusual weekend activity"
+    ]
+  }
+]
