@@ -21,9 +21,9 @@ class AnomalyDetectionService {
    */
   detectAnomaly(alert: Alert): AnomalyDetection {
     // Simple rules to determine if it's an anomaly
-    const isNightTime = this.isNightTime(alert.timestamp);
-    const isHighRisk = this.isHighRiskLocation(alert.coordinates.lat, alert.coordinates.lng);
-    const isCritical = alert.level === 'Critical';
+  const isNightTime = this.isNightTime(alert.timestamp || '');
+  const isHighRisk = this.isHighRiskLocation(alert.coordinates?.lat ?? 0, alert.coordinates?.lng ?? 0);
+  const isCritical = alert.level === AlertLevel.CRITICAL;
     
     // Calculate risk score
     let riskScore = 0;
@@ -78,8 +78,29 @@ class AnomalyDetectionService {
    * Check if timestamp is during night (22:00 - 06:00)
    */
   private isNightTime(timestamp: string): boolean {
-    const hour = parseInt(timestamp.split(' ')[1].split(':')[0]);
-    return hour >= 22 || hour <= 6;
+    if (!timestamp) return false;
+    // Try to parse common formats: 'YYYY-MM-DD HH:mm:ss UTC' or ISO strings
+    try {
+      // If it contains a space-separated time portion, extract it
+      let timePart: string | null = null;
+      if (timestamp.includes(' ')) {
+        const parts = timestamp.split(' ');
+        // find a part that looks like HH:MM
+        timePart = parts.find(p => /\d{1,2}:\d{2}(:\d{2})?/.test(p)) || null;
+      }
+      if (!timePart) {
+        // Fallback: try Date parsing
+        const d = new Date(timestamp);
+        if (isNaN(d.getTime())) return false;
+        const h = d.getUTCHours();
+        return h >= 22 || h <= 6;
+      }
+      const hour = parseInt(timePart.split(':')[0], 10);
+      if (isNaN(hour)) return false;
+      return hour >= 22 || hour <= 6;
+    } catch (err) {
+      return false;
+    }
   }
   
   /**

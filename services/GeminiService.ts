@@ -29,8 +29,10 @@ const checkApiKey = () => {
       return process.env.API_KEY;
     }
     // In a browser, import.meta.env might be available via a build tool.
-    if (typeof import.meta !== 'undefined' && (import.meta as any).env && (import.meta as any).env.API_KEY) {
-        return (import.meta as any).env.API_KEY;
+  if (typeof import.meta !== 'undefined' && (import.meta as any).env) {
+    // Vite exposes env vars as import.meta.env.VITE_... by convention
+    const env = (import.meta as any).env;
+    return env.GEMINI_API_KEY || env.VITE_GEMINI_API_KEY || env.API_KEY || null;
     }
   } catch (error) {
     console.error("Error checking for API key:", error);
@@ -38,15 +40,22 @@ const checkApiKey = () => {
   return null;
 };
 
-const apiKey = checkApiKey();
+let apiKey = checkApiKey();
 if (apiKey) {
-    apiKeyIsConfigured = true;
+  apiKeyIsConfigured = true;
 } else {
-    console.warn("Gemini API key not found. AI features will be disabled.");
-    apiKeyIsConfigured = false;
+  console.warn("Gemini API key not found. AI features will be disabled.");
+  apiKeyIsConfigured = false;
 }
 
-export const isApiKeyConfigured = apiKeyIsConfigured;
+export const getApiKey = () => apiKey;
+export const refreshApiKey = () => {
+  apiKey = checkApiKey();
+  apiKeyIsConfigured = !!apiKey;
+  return apiKeyIsConfigured;
+};
+
+export const isApiKeyConfigured = () => apiKeyIsConfigured;
 
 // LAZY-LOAD & INITIALIZE THE AI CLIENT
 // This prevents the SDK from loading on page start, which was the cause of the crash.
@@ -63,8 +72,12 @@ const getAiInstance = async (): Promise<GenAI | null> => {
   isInitializing = true;
   try {
     // Dynamically import the SDK using the full CDN URL to resolve Vite's issue.
-    const genaiModule = await import('https://aistudiocdn.com/google-genai-sdk@0.0.3');
-    const GoogleGenAI: GoogleGenAIConstructor = genaiModule.GoogleGenAI;
+  // The SDK is loaded from a remote CDN at runtime. TypeScript cannot
+  // statically resolve this module, so we cast to `any` and ignore the
+  // missing-module type error here.
+  // @ts-ignore
+  const genaiModule: any = await import('https://aistudiocdn.com/google-genai-sdk@0.0.3');
+  const GoogleGenAI: GoogleGenAIConstructor = genaiModule.GoogleGenAI;
     
     if (!GoogleGenAI) {
         throw new Error("GoogleGenAI class not found in the imported module.");
