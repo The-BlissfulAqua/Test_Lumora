@@ -16,13 +16,22 @@ const AnalystView: React.FC = () => {
   const [severityFilter, setSeverityFilter] = useState<AlertLevel | 'all'>('all');
 
   useEffect(() => {
-    // Fetch all historical data on mount
-    const alerts = MissionService.getAlerts();
-    setAllAlerts(alerts);
-    if (alerts.length > 0) {
-      setActiveTimelineAlert(alerts[0]);
-    }
-  }, []);
+    // Fetch and subscribe to alerts so the analyst view stays in sync
+    const update = () => {
+      const alerts = MissionService.getAlerts();
+      setAllAlerts(alerts);
+      if (!activeTimelineAlert && alerts.length > 0) {
+        setActiveTimelineAlert(alerts[0]);
+      } else if (activeTimelineAlert) {
+        const updated = alerts.find(a => a.id === activeTimelineAlert.id) || null;
+        setActiveTimelineAlert(updated);
+      }
+    };
+
+    update();
+    const unsub = MissionService.subscribe(update);
+    return () => unsub();
+  }, [activeTimelineAlert]);
 
   const filteredAlerts = useMemo(() => {
     return allAlerts

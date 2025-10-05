@@ -95,18 +95,23 @@ const FieldAgentView: React.FC = () => {
         <div className="md:col-span-1 bg-navy-light rounded-2xl shadow-lg p-4 flex flex-col">
           <h3 className="text-xl font-bold text-accent-cyan mb-4 flex-shrink-0">Assigned Alerts</h3>
           <div className="space-y-3 overflow-y-auto pr-2 flex-grow">
-            {alerts.map(alert => (
-              <div
-                key={alert.id}
-                onClick={() => setSelectedAlert(alert)}
-                className={`p-3 rounded-lg cursor-pointer transition-colors ${selectedAlert?.id === alert.id ? 'bg-navy-dark ring-2 ring-accent-cyan' : 'bg-navy-dark hover:bg-opacity-80'}`}
-              >
-                <h4 className="font-bold text-slate-light">{alert.title}</h4>
-                <p className="text-sm text-slate-dark">{alert.location}</p>
-                <p className={`text-xs font-bold mt-1 ${alert.status === AlertStatus.PENDING ? 'text-alert-yellow' : 'text-health-green'}`}>{alert.status}</p>
-              </div>
-            ))}
-            {alerts.length === 0 && <p className="text-center text-slate-dark">No active alerts.</p>}
+            {(() => {
+              const pending = alerts.filter(a => a.status === AlertStatus.PENDING).slice(0, 2);
+              const ack = alerts.filter(a => a.status === AlertStatus.ACKNOWLEDGED).slice(0, 2);
+              const assigned = [...pending, ...ack];
+              if (assigned.length === 0) return <p className="text-center text-slate-dark">No active alerts.</p>;
+              return assigned.map(alert => (
+                <div
+                  key={alert.id}
+                  onClick={() => setSelectedAlert(alert)}
+                  className={`p-3 rounded-lg cursor-pointer transition-colors ${selectedAlert?.id === alert.id ? 'bg-navy-dark ring-2 ring-accent-cyan' : 'bg-navy-dark hover:bg-opacity-80'}`}
+                >
+                  <h4 className="font-bold text-slate-light">{alert.title}</h4>
+                  <p className="text-sm text-slate-dark">{alert.location}</p>
+                  <p className={`text-xs font-bold mt-1 ${alert.status === AlertStatus.PENDING ? 'text-alert-yellow' : 'text-health-green'}`}>{alert.status}</p>
+                </div>
+              ));
+            })()}
           </div>
         </div>
 

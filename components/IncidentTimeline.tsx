@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Alert, AlertLevel } from '../types';
+import { AnomalyService } from '../services/AnomalyService';
 
 interface IncidentTimelineProps {
   activeAlert: Alert | null;
@@ -42,6 +43,21 @@ const IncidentTimeline: React.FC<IncidentTimelineProps> = ({ activeAlert, allAle
                     <p className="text-xs text-slate-dark">{activeAlert.timestamp}</p>
                     <h4 className="font-bold text-slate-light">{activeAlert.title} (Active)</h4>
                     <p className="text-sm text-slate-dark">{activeAlert.location}</p>
+                </div>
+                {/* Reasons why this was flagged */}
+                <div className="relative">
+                  <h5 className="text-sm font-semibold text-slate-light mt-2">Why This Was Flagged</h5>
+                  <div className="text-sm text-slate-dark mt-1">
+                    {(() => {
+                      try {
+                        const ad = AnomalyService.detectAnomaly(activeAlert);
+                        const base = Array.isArray(ad.explanation) ? ad.explanation : [String(ad.explanation)];
+                        return base.map((r, idx) => (<div key={idx}>• {r}</div>));
+                      } catch (e) {
+                        return <div>Analysis not available</div>;
+                      }
+                    })()}
+                  </div>
                 </div>
                  {/* Related Alerts */}
                  {relatedAlerts.map(alert => (

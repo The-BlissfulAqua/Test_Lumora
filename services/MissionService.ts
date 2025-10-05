@@ -66,4 +66,29 @@ export const MissionService = {
     });
     notifyListeners();
   }
+  ,
+
+  // Replace current alerts with a new set. Useful for demo seeding.
+  setAlerts(newAlerts: Alert[]): void {
+    // Recompute hashes for each alert
+    alerts = newAlerts.map(alert => {
+      const dataToHash = `${alert.id}-${alert.timestamp}-${alert.location}`;
+      return { ...alert, hash: generateHash(dataToHash) };
+    });
+    notifyListeners();
+  },
+
+  // Append a single alert
+  addAlert(alert: Alert): void {
+    const dataToHash = `${alert.id}-${alert.timestamp}-${alert.location}`;
+    const withHash = { ...alert, hash: generateHash(dataToHash) };
+    alerts = [withHash, ...alerts];
+    notifyListeners();
+  },
+
+  // Clear all alerts
+  clearAlerts(): void {
+    alerts = [];
+    notifyListeners();
+  }
 };
