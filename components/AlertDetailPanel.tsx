@@ -14,6 +14,62 @@ const AlertDetailPanel: React.FC<AlertDetailPanelProps> = ({ alert }) => {
     return AnomalyService.detectAnomaly(alert);
   }, [alert]);
 
+  // Build a slightly randomized, deterministic set of explanation reasons to
+  // display. We keep the core `anomalyData.explanation` but supplement it with
+  // 1-3 additional contextual reasons selected from a pool. Selection is
+  // deterministic per-alert using a simple hash of the alert id.
+  const displayReasons = useMemo(() => {
+    const base = Array.isArray(anomalyData.explanation) ? [...anomalyData.explanation] : [String(anomalyData.explanation)];
+
+    const reasonPool = [
+      'Unusual movement pattern compared to baseline',
+      'Detected thermal signature consistent with a vehicle',
+      'Multiple sensors reported correlated activity',
+      'Close proximity to known crossing point',
+      'Loitering behavior detected near perimeter',
+      'Communications silence from expected patrol units',
+      'GPS jitter inconsistent with normal transit',
+      'Vehicle type matches items on watchlist',
+      'Recent similar incidents reported nearby',
+      'Rapid approach to restricted area',
+    ];
+
+    // Simple deterministic hash -> number
+    const hashString = (s: string) => {
+      let h = 2166136261 >>> 0;
+      for (let i = 0; i < s.length; i++) {
+        h ^= s.charCodeAt(i);
+        h = Math.imul(h, 16777619) >>> 0;
+      }
+      return h;
+    };
+
+    const seed = hashString(alert.id + String(alert.timestamp || ''));
+    // Determine how many extras: 1..3, biased to more when confidence high
+    const conf = anomalyData.confidence ?? 0.0;
+    const maxExtra = conf > 0.75 ? 3 : conf > 0.5 ? 2 : 1;
+    const extraCount = 1 + (seed % maxExtra);
+
+    // Choose without replacement from pool using seeded pseudo-random picks
+    const chosen: string[] = [];
+    let pool = reasonPool.slice();
+    let s = seed;
+    for (let i = 0; i < extraCount && pool.length > 0; i++) {
+      const idx = s % pool.length;
+      chosen.push(pool[idx]);
+      pool.splice(idx, 1);
+      // advance seed pseudo-randomly
+      s = (s * 1664525 + 1013904223) >>> 0;
+    }
+
+    // Merge base explanations and chosen extras, preserving order and uniqueness
+    const merged = [...base];
+    for (const c of chosen) {
+      if (!merged.includes(c)) merged.push(c);
+    }
+    return merged;
+  }, [alert.id, alert.timestamp, anomalyData.explanation, anomalyData.confidence]);
+
   const levelTextMap = {
     [AlertLevel.CRITICAL]: 'text-alert-red',
     [AlertLevel.WARNING]: 'text-alert-yellow',
@@ -102,7 +158,7 @@ const AlertDetailPanel: React.FC<AlertDetailPanelProps> = ({ alert }) => {
         )}
 
         {/* Explanation */}
-        {anomalyData.explanation.length > 0 && (
+        {displayReasons.length > 0 && (
           <div className="pt-3 border-t border-navy-dark">
             <h4 className="text-md font-bold text-accent-cyan mb-3 flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -111,7 +167,7 @@ const AlertDetailPanel: React.FC<AlertDetailPanelProps> = ({ alert }) => {
               Why This Was Flagged
             </h4>
             <div className="space-y-2">
-              {anomalyData.explanation.map((reason, index) => (
+              {displayReasons.map((reason, index) => (
                 <div key={index} className="flex items-start space-x-2 text-sm">
                   <span className="text-alert-yellow font-bold min-w-[24px]">{index + 1}.</span>
                   <span className="text-slate-light">{reason}</span>

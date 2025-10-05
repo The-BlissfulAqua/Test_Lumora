@@ -44,6 +44,9 @@ export interface Alert {
   timestamp: string;
   location: string;
   coordinates: { lat: number; lng: number };
+  // Optional explicit source anchor identifier (e.g., 'pak_west') to force
+  // threat pointers to originate from a specific border anchor.
+  threatSource?: string;
   hash?: string;
   status: AlertStatus;
   dispatchLog: ChatMessage[];
