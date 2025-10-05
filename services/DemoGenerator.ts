@@ -1,4 +1,5 @@
 import { Alert, AlertLevel, AlertStatus, ChatMessage, Evidence } from '../types';
+import { INDIA_BORDER_VERTICES } from '../data/india_border_vertices';
 
 // Simple seeded-ish random helper
 function randInt(min: number, max: number) {
@@ -44,6 +45,25 @@ export function generateDemoAlerts(count = 6): Alert[] {
     const lat = +(anchor.lat + jitterLat).toFixed(5);
     const lng = +(anchor.lng + jitterLng).toFixed(5);
 
+    // Snap to nearest border vertex for realism
+    let snapped = { lat, lng };
+    try {
+      let best = INDIA_BORDER_VERTICES[0];
+      let bestDist = Math.hypot(lat - best.lat, lng - best.lng);
+      for (let v of INDIA_BORDER_VERTICES) {
+        const d = Math.hypot(lat - v.lat, lng - v.lng);
+        if (d < bestDist) { bestDist = d; best = v; }
+      }
+      // apply a tiny jitter towards the border vertex (not exact overwrite)
+      const jitterFactor = 0.04; // keeps points near vertex but not identical
+      snapped = {
+        lat: +(lat * (1 - jitterFactor) + best.lat * jitterFactor).toFixed(5),
+        lng: +(lng * (1 - jitterFactor) + best.lng * jitterFactor).toFixed(5),
+      };
+    } catch (e) {
+      // fall back to original jittered point
+    }
+
     const level = i % 3 === 0 ? AlertLevel.CRITICAL : i % 3 === 1 ? AlertLevel.WARNING : AlertLevel.INFO;
 
     const now = new Date(Date.now() - randInt(0, 60 * 60 * 1000)).toUTCString();
@@ -54,7 +74,7 @@ export function generateDemoAlerts(count = 6): Alert[] {
       description: SAMPLE_REASONS[i % SAMPLE_REASONS.length],
       timestamp: now,
       location: `Border sector ${i + 1}`,
-      coordinates: { lat, lng },
+  coordinates: { lat: snapped.lat, lng: snapped.lng },
       level,
       status: AlertStatus.PENDING,
       dispatchLog: generateDispatchLog(),

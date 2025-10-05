@@ -1,0 +1,38 @@
+// Approximate border vertices around India used for demo snapping.
+// These are simplified and intended for demo purposes only (not authoritative).
+export const INDIA_BORDER_VERTICES = [
+  { lat: 35.5, lng: 77.0 },
+  { lat: 34.1, lng: 76.0 },
+  { lat: 33.0, lng: 75.0 },
+  { lat: 32.0, lng: 74.0 },
+  { lat: 30.9, lng: 72.5 },
+  { lat: 29.1, lng: 71.0 },
+  { lat: 27.5, lng: 70.0 },
+  { lat: 25.5, lng: 69.0 },
+  { lat: 24.0, lng: 68.5 },
+  { lat: 22.5, lng: 69.0 },
+  { lat: 21.0, lng: 70.5 },
+  { lat: 19.0, lng: 72.0 },
+  { lat: 18.0, lng: 73.5 },
+  { lat: 17.0, lng: 75.0 },
+  { lat: 16.0, lng: 77.0 },
+  { lat: 15.0, lng: 79.0 },
+  { lat: 14.0, lng: 81.0 },
+  { lat: 13.0, lng: 83.0 },
+  { lat: 12.0, lng: 85.0 },
+  { lat: 12.5, lng: 87.0 },
+  { lat: 14.0, lng: 90.0 },
+  { lat: 16.5, lng: 92.0 },
+  { lat: 19.0, lng: 93.5 },
+  { lat: 21.5, lng: 92.5 },
+  { lat: 23.5, lng: 91.0 },
+  { lat: 24.5, lng: 90.0 },
+  { lat: 25.5, lng: 88.0 },
+  { lat: 27.0, lng: 86.0 },
+  { lat: 28.5, lng: 84.5 },
+  { lat: 29.5, lng: 82.5 },
+  { lat: 31.0, lng: 80.5 },
+  { lat: 33.0, lng: 79.0 },
+];
+
+export default INDIA_BORDER_VERTICES;

@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+// Marker cluster (optional). The project ships the dependency; if it's not
+// installed, importing will fail at runtime but the code guards against
+// cluster usage where possible.
+import 'leaflet.markercluster/dist/MarkerCluster.css';
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+// @ts-ignore - markercluster augmentations are not in our TS types
+import 'leaflet.markercluster';
 import { Alert, AlertLevel } from '../types';
 
 interface MapViewProps {
@@ -106,6 +113,16 @@ const MapView: React.FC<MapViewProps> = ({ alerts, selectedAlertId, onMarkerClic
     const markers: L.Marker[] = [];
     const polylines: L.Polyline[] = [];
 
+    // Try to create a marker cluster group if available
+    let clusterGroup: any = null;
+    try {
+      // @ts-ignore
+      clusterGroup = (L as any).markerClusterGroup ? (L as any).markerClusterGroup() : null;
+      if (clusterGroup) map.addLayer(clusterGroup);
+    } catch (e) {
+      clusterGroup = null;
+    }
+
     const toLatLng = (c: { lat: number; lng: number }) => new L.LatLng(c.lat, c.lng);
 
     alerts.forEach(alert => {
@@ -137,7 +154,12 @@ const MapView: React.FC<MapViewProps> = ({ alerts, selectedAlertId, onMarkerClic
         fillOpacity: isActive ? 0.95 : 0.5,
       };
 
-      const marker = L.circleMarker(pos, markerOptions).addTo(map);
+      const marker = L.circleMarker(pos, markerOptions);
+      if (clusterGroup) {
+        clusterGroup.addLayer(marker);
+      } else {
+        marker.addTo(map);
+      }
       const popupContent = `<div style="min-width:180px"><strong>${alert.title}</strong><br/><small>${alert.location}</small><br/><em>${alert.timestamp}</em><div style="margin-top:6px">Severity: ${alert.level}</div></div>`;
       marker.bindPopup(popupContent);
       marker.on('click', () => {
@@ -207,9 +229,13 @@ const MapView: React.FC<MapViewProps> = ({ alerts, selectedAlertId, onMarkerClic
     // Fit bounds to show India nicely
     map.fitBounds([[MAP_BOUNDS.latMin, MAP_BOUNDS.lngMin], [MAP_BOUNDS.latMax, MAP_BOUNDS.lngMax]], { padding: [40, 40] });
 
-    // cleanup anchor markers when effect re-runs
+    // cleanup anchor markers & clusters when effect re-runs
     return () => {
-      markers.forEach(m => map.removeLayer(m));
+      if (clusterGroup) {
+        try { map.removeLayer(clusterGroup); } catch (e) {}
+      } else {
+        markers.forEach(m => map.removeLayer(m));
+      }
       polylines.forEach(p => map.removeLayer(p));
       anchorMarkers.forEach(a => map.removeLayer(a));
     };

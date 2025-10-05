@@ -113,8 +113,8 @@ const generateContentWithFallback = async (prompt: string, fallbackMessage: stri
 
 export const GeminiService = {
   async generateThreatAssessment(alerts: Alert[]): Promise<string> {
-    const fallback = "AI Service Not Configured: Threat assessment is unavailable.";
-    if (!isApiKeyConfigured) return fallback;
+  const fallback = "AI Service Not Configured: Threat assessment is unavailable.";
+  if (!isApiKeyConfigured()) return fallback;
     if (alerts.length === 0) {
       return "No incidents selected. Please select one or more incidents to generate a threat assessment.";
     }
@@ -129,8 +129,8 @@ export const GeminiService = {
   },
 
   async explainAlert(alert: Alert): Promise<string> {
-    const fallback = "AI Service Not Configured: Alert explanation is unavailable.";
-    if (!isApiKeyConfigured) return fallback;
+  const fallback = "AI Service Not Configured: Alert explanation is unavailable.";
+  if (!isApiKeyConfigured()) return fallback;
     const prompt = `
       Explain the following security alert in simple terms for a command officer.
       What are the potential implications and what is the immediate operational context? Be brief and clear.
@@ -145,8 +145,8 @@ export const GeminiService = {
   },
 
   async summarizeEvidence(alert: Alert): Promise<string> {
-    const fallback = "AI Service Not Configured: Mission summary is unavailable.";
-    if (!isApiKeyConfigured) return fallback;
+  const fallback = "AI Service Not Configured: Mission summary is unavailable.";
+  if (!isApiKeyConfigured()) return fallback;
     const hasEvidence = alert.evidence.length > 0;
     const hasLogs = alert.dispatchLog.length > 0;
 
