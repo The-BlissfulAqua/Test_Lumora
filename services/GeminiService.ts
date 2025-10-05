@@ -95,6 +95,22 @@ const getAiInstance = async (): Promise<GenAI | null> => {
 
 
 const generateContentWithFallback = async (prompt: string, fallbackMessage: string): Promise<string> => {
+  // First, try serverless proxy (useful when deploying to Vercel with server-side API key).
+  try {
+    const proxyResp = await fetch('/api/gemini-proxy', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt }),
+    });
+    if (proxyResp.ok) {
+      const d = await proxyResp.json();
+      if (d && d.text) return String(d.text);
+    }
+  } catch (e) {
+    // ignore and fallback to client-side SDK
+  }
+
+  // Fallback: client-side SDK (CDN import)
   const localAi = await getAiInstance();
   if (!localAi) {
     return fallbackMessage;
